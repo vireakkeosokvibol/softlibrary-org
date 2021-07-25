@@ -1308,14 +1308,14 @@
   integrity sha512-Klz949h02Gz2uZCMGwDUSDS1YBlTdDDgbWHi+81l29tQALUtvz4rAYi5uoVhE5Lagoq6DeqAUlbrHvW/mXDgdQ==
 
 "@types/node@*", "@types/node@>=10.0.0":
-  version "16.4.1"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.4.1.tgz#9fad171a5b701613ee8a6f4ece3c88b1034b1b03"
-  integrity sha512-UW7cbLqf/Wu5XH2RKKY1cHwUNLicIDRLMraYKz+HHAerJ0ZffUEk+fMnd8qU2JaS6cAy0r8tsaf7yqHASf/Y0Q==
+  version "16.4.2"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.4.2.tgz#0a95d7fd950cb1eaca0ce11031d72e8f680b775a"
+  integrity sha512-vxyhOzFCm+jC/T5KugbVsYy1DbQM0h3NCFUrVbu0+pYa/nr+heeucpqxpa8j4pUmIGLPYzboY9zIdOF0niFAjQ==
 
 "@types/node@^12.11.1":
-  version "12.20.16"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-12.20.16.tgz#1acf34f6456208f495dac0434dd540488d17f991"
-  integrity sha512-6CLxw83vQf6DKqXxMPwl8qpF8I7THFZuIwLt4TnNsumxkp1VsRZWT8txQxncT/Rl2UojTsFzWgDG4FRMwafrlA==
+  version "12.20.17"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-12.20.17.tgz#ffd44c2801fc527a6fe6e86bc9b900261df1c87e"
+  integrity sha512-so8EHl4S6MmatPS0f9sE1ND94/ocbcEshW5OpyYthRqeRpiYyW2uXYTo/84kmfdfeNrDycARkvuiXl6nO40NGg==
 
 "@types/parse-json@^4.0.0":
   version "4.0.0"
@@ -2297,9 +2297,9 @@ caniuse-api@^3.0.0:
     lodash.uniq "^4.5.0"
 
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001032, caniuse-lite@^1.0.30001181, caniuse-lite@^1.0.30001219:
-  version "1.0.30001246"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001246.tgz#fe17d9919f87124d6bb416ef7b325356d69dc76c"
-  integrity sha512-Tc+ff0Co/nFNbLOrziBXmMVtpt9S2c2Y+Z9Nk9Khj09J+0zR9ejvIW5qkZAErCbOrVODCx/MN+GpB5FNBs5GFA==
+  version "1.0.30001247"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001247.tgz#105be7a8fb30cdd303275e769a9dfb87d4b3577a"
+  integrity sha512-4rS7co+7+AoOSPRPOPUt5/GdaqZc0EsUpWk66ofE3HJTAajUK2Ss2VwoNzVN69ghg8lYYlh0an0Iy4LIHHo9UQ==
 
 canonical-path@1.0.0:
   version "1.0.0"
@@ -2836,9 +2836,9 @@ css-color-names@^1.0.1:
   integrity sha512-/loXYOch1qU1biStIFsHH8SxTmOseh1IJqFvy8IujXOm1h+QjUdDhkzOrR5HG8K8mlxREj0yfi8ewCHx0eMxzA==
 
 css-declaration-sorter@^6.0.3:
-  version "6.0.3"
-  resolved "https://registry.yarnpkg.com/css-declaration-sorter/-/css-declaration-sorter-6.0.3.tgz#9dfd8ea0df4cc7846827876fafb52314890c21a9"
-  integrity sha512-52P95mvW1SMzuRZegvpluT6yEv0FqQusydKQPZsNN5Q7hh8EwQvN8E2nwuJ16BBvNN6LcoIZXu/Bk58DAhrrxw==
+  version "6.1.1"
+  resolved "https://registry.yarnpkg.com/css-declaration-sorter/-/css-declaration-sorter-6.1.1.tgz#77b32b644ba374bc562c0fc6f4fdaba4dfb0b749"
+  integrity sha512-BZ1aOuif2Sb7tQYY1GeCjG7F++8ggnwUkH5Ictw0mrdpqpEd+zWmcPdstnH2TItlb74FqR0DrVEieon221T/1Q==
   dependencies:
     timsort "^0.3.0"
 
@@ -3298,9 +3298,9 @@ ee-first@1.1.1:
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
 electron-to-chromium@^1.3.723:
-  version "1.3.785"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.785.tgz#79f546c69a6be4f30913aaace361bc746f26df48"
-  integrity sha512-WmCgAeURsMFiyoJ646eUaJQ7GNfvMRLXo+GamUyKVNEM4MqTAsXyC0f38JEB4N3BtbD0tlAKozGP5E2T9K3YGg==
+  version "1.3.786"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.786.tgz#1fc572abc77e2f474725f8a61acf7e25ced9fbe2"
+  integrity sha512-AmvbLBj3hepRk8v/DHrFF8gINxOFfDbrn6Ts3PcK46/FBdQb5OMmpamSpZQXSkfi77FfBzYtQtAk+00LCLYMVw==
 
 elliptic@^6.5.3:
   version "6.5.4"
@@ -4947,9 +4947,9 @@ jsprim@^1.2.2:
     verror "1.10.0"
 
 jszip@^3.1.3:
-  version "3.6.0"
-  resolved "https://registry.yarnpkg.com/jszip/-/jszip-3.6.0.tgz#839b72812e3f97819cc13ac4134ffced95dd6af9"
-  integrity sha512-jgnQoG9LKnWO3mnVNBnfhkh0QknICd1FGSrXcgrl67zioyJ4wgx25o9ZqwNtrROSflGBCGYnJfjrIyRIby1OoQ==
+  version "3.7.0"
+  resolved "https://registry.yarnpkg.com/jszip/-/jszip-3.7.0.tgz#9b8b995a4e7c9024653ce743e902076a82fdf4e6"
+  integrity sha512-Y2OlFIzrDOPWUnpU0LORIcDn2xN7rC9yKffFM/7pGhQuhO+SUhfm2trkJ/S5amjFvem0Y+1EALz/MEPkvHXVNw==
   dependencies:
     lie "~3.3.0"
     pako "~1.0.2"
@@ -7857,9 +7857,9 @@ tapable@^2.2.0:
   integrity sha512-FBk4IesMV1rBxX2tfiK8RAmogtWn53puLOQlvO8XuwlgxcYbP4mVPS9Ph4aeamSyyVjOl24aYWAuc8U5kCVwMw==
 
 tar@^6.0.2, tar@^6.1.0:
-  version "6.1.0"
-  resolved "https://registry.yarnpkg.com/tar/-/tar-6.1.0.tgz#d1724e9bcc04b977b18d5c573b333a2207229a83"
-  integrity sha512-DUCttfhsnLCjwoDoFcI+B2iJgYa93vBnDUATYEeRx6sntCTdN01VnqsIuTlALXla/LWooNg0yEGeB+Y8WdFxGA==
+  version "6.1.1"
+  resolved "https://registry.yarnpkg.com/tar/-/tar-6.1.1.tgz#4d7da4b132b334bb8c175ed1de466fe9157ea0eb"
+  integrity sha512-GG0R7yt/CQkvG4fueXDi52Zskqxe2AyRJ+Wm54yqarnBgcX3qRIWh10qLVAAN+mlPFGTfP5UxvD3Fbi11UOTUQ==
   dependencies:
     chownr "^2.0.0"
     fs-minipass "^2.0.0"
