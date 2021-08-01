@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MatButtonModule } from '@angular/material/button';
+import { MatCardModule } from '@angular/material/card';
 
 import { HomeRoutingModule } from './home-routing.module';
 import { HomeComponent } from './home.component';
@@ -15,7 +16,8 @@ import { LayoutsModule } from '../layouts/layouts.module';
     CommonModule,
     HomeRoutingModule,
     LayoutsModule,
-    MatButtonModule
+    MatButtonModule,
+    MatCardModule
   ]
 })
 export class HomeModule { }

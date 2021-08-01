@@ -1,0 +1,19 @@
+.home-project-card {
+  box-shadow: 0 0 10px #e0e0e0;
+  margin-left: 50px;
+  clear:none;
+}
+
+.home-project-card mat-card-header {
+  padding-top: 25px;
+}
+
+.home-project-card mat-card-content {
+  padding: 0 15px;
+  color: #666;
+  line-height: 25px;
+}
+
+.home-project-card mat-card-actions {
+  padding: 20px 0 20px 20px;
+}
