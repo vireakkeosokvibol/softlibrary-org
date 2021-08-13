@@ -1,11 +1,15 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { MatButtonModule } from '@angular/material/button';
-import { MatCardModule } from '@angular/material/card';
+import { NzGridModule } from 'ng-zorro-antd/grid';
+import { NzTypographyModule } from 'ng-zorro-antd/typography';
+import { NzButtonModule } from 'ng-zorro-antd/button';
+import { NzCardModule } from 'ng-zorro-antd/card';
+import { NzIconModule } from 'ng-zorro-antd/icon';
+import { NzToolTipModule } from 'ng-zorro-antd/tooltip';
 
 import { HomeRoutingModule } from './home-routing.module';
 import { HomeComponent } from './home.component';
-import { LayoutsModule } from '../layouts/layouts.module';
+import { LayoutModule } from '../layout/layout.module';
 
 
 @NgModule({
@@ -15,9 +19,13 @@ import { LayoutsModule } from '../layouts/layouts.module';
   imports: [
     CommonModule,
     HomeRoutingModule,
-    LayoutsModule,
-    MatButtonModule,
-    MatCardModule
+    LayoutModule,
+    NzGridModule,
+    NzTypographyModule,
+    NzButtonModule,
+    NzCardModule,
+    NzIconModule,
+    NzToolTipModule
   ]
 })
 export class HomeModule { }

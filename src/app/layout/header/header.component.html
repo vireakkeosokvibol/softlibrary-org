@@ -1,0 +1,32 @@
+<nz-layout style="display: flex; justify-content: center; align-items: center;">
+  <nz-header style="width: 100%; max-width: 1280px; display: flex; align-items: center;">
+    <span nz-typography style="color: #ffffff; margin-right: 50px;">softlibrary</span>
+    <a href="" nz-button nzType="default" nzGhost>Projects</a>
+    <a href="#" nz-button nzType="default" nz-dropdown [nzDropdownMenu]="community" nzTrigger="click" nzGhost>Community</a>
+    <nz-dropdown-menu #community="nzDropdownMenu">
+      <ul nz-menu>
+        <li nz-menu-item>
+          <a href="https://forum.softlibrary.org" target="_blank">Forum</a>
+        </li>
+        <li nz-menu-item>
+          <a href="https://github.com/softlibrary" target="_blank">Github</a>
+        </li>
+        <li nz-menu-item>
+          <a href="https://gitter.im/softlibrary" target="_blank">Gitter</a>
+        </li>
+      </ul>
+    </nz-dropdown-menu>
+    <a href="https://blog.softlibrary.org" target="_blank" nz-button nzType="default" nzGhost>Blog</a>
+    <span style="flex: 1 1 auto;"></span>
+    <a href="#" nz-button nz-dropdown [nzDropdownMenu]="language" nzType="link" nzGhost nzTrigger="click">
+      <i nz-icon nzType="flag"></i>
+    </a>
+    <nz-dropdown-menu #language="nzDropdownMenu">
+      <ul nz-menu>
+        <li nz-menu-item>
+          <a>English</a>
+        </li>
+      </ul>
+    </nz-dropdown-menu>
+  </nz-header>
+</nz-layout>
