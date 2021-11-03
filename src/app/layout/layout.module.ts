@@ -7,6 +7,7 @@ import { NzDropDownModule } from 'ng-zorro-antd/dropdown';
 import { NzIconModule } from 'ng-zorro-antd/icon';
 import { NzTypographyModule } from 'ng-zorro-antd/typography';
 import { FooterComponent } from './footer/footer.component';
+import { NzDrawerModule } from 'ng-zorro-antd/drawer';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { FooterComponent } from './footer/footer.component';
     NzButtonModule,
     NzDropDownModule,
     NzIconModule,
-    NzTypographyModule
+    NzTypographyModule,
+    NzDrawerModule
   ],
   exports: [
     HeaderComponent,

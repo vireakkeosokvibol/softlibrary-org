@@ -1,5 +1,21 @@
 @import "node_modules/ng-zorro-antd/ng-zorro-antd.less";
 
+.slide{
+  min-height:calc(100% - 240px);
+  display:flex;
+  justify-content: center;
+
+  .slide_container{
+    max-width: 1280px; 
+    min-width: 440px;
+    padding:0 25px;
+    box-sizing: content-box;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
 .section {
   box-sizing: border-box;
   border-top: 1px solid #efefef;
@@ -8,6 +24,7 @@
   align-items: center;
   width: 100%;
   min-height: 100%;
+  height: auto;
   background-color: @layout-body-background;
 
   .cardBox {
@@ -16,5 +33,14 @@
     box-shadow: 0 0 50px #cccccc;
     box-sizing: border-box;
     border-top: 5px solid @primary-color;
+  }
+}
+
+@media only screen and (max-width:768px){
+  .slide_container{
+   
+    margin-top:20px;
+    flex-direction: column;
+    width:100%;
   }
 }
