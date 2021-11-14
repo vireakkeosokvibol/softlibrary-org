@@ -8,14 +8,15 @@ import { NzDrawerPlacement } from 'ng-zorro-antd/drawer';
 
 })
 export class HeaderComponent implements OnInit {
+
   visible = false;
   showBtn = false;
   showMenu = true;
   placement: NzDrawerPlacement = 'right';
   getScreenWidth: any;
+
   open(): void {
     this.visible = true;
-
   }
 
   close(): void {
@@ -28,7 +29,6 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit(): void {
     this.getScreenWidth = window.innerWidth;
-    console.log(this.getScreenWidth)
     if (this.getScreenWidth < 1006) {
       this.showBtn = true;
       this.showMenu = false;
@@ -37,4 +37,5 @@ export class HeaderComponent implements OnInit {
       this.showMenu = true;
     }
   }
+
 }
